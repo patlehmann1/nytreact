@@ -1,13 +1,6 @@
-import React, { Component } from "react";
-import "./App.css";
-import MainHeader from "./components/MainHeader";
+import React from "react";
+import SearchResultContainer from "./components/SearchResultContainer";
 
-class App extends Component {
-  render() {
-    return (
-        <MainHeader />
-    );
-  }
-}
+const App = () => <SearchResultContainer />;
 
 export default App;

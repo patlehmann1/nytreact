@@ -1,17 +1,13 @@
 import React from 'react';
 import './MainHeader.css';
 
-const MainHeader = () => {
+const MainHeader = props => {
     return (
         <header className="container-fluid text-center p-4 text-white">
+            <div className="row wrap">
+            <div className="col-xs-12 col-lg-12">
             <span className="header-text">New York Times Search</span>
-            <div class="wrap">
-                <div class="search">
-                    <input type="text" class="searchTerm" placeholder="What's on your mind?" />
-                        <button type="submit" class="searchButton">
-                            <i class="fa fa-search"></i>
-                        </button>
-                </div>
+            </div>
             </div>
         </header>
             );
